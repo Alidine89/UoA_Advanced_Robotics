@@ -56,7 +56,7 @@ Singularity Handling: Damped Jacobian prevented instabilities near singular conf
 
 ![Texte alternatif](https://github.com/Alidine89/UoA_Advanced_Robotics/blob/main/Plot.png)
 
-<img src="https://github.com/Alidine89/UoA_Advanced_Robotics/blob/main/Plot.png" alt="Logo du projet" width="300">
+<img src="https://github.com/Alidine89/UoA_Advanced_Robotics/blob/main/Plot.png" alt="Logo du projet" width="600">
 
 
 

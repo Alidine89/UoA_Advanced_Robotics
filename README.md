@@ -14,24 +14,29 @@ Simulations: MATLAB/Simulink models for control validation.
 Results: Performance metrics for all controllers.
 
 ## Key Features
-1. Kinematic Analysis
+### 1. Kinematic Analysis
 Forward Kinematics: Derived transformation matrices using DH parameters.
 Inverse Kinematics: Geometric solutions for joint angles (8 possible configurations).
 Jacobian Matrix: Computed linear/angular velocity relationships and singularity conditions (elbow, wrist, shoulder).
 Trajectory Planning: Pseudo-inverse Jacobian method with cubic interpolation.
-2. Dynamic Modeling
+
+### 2. Dynamic Modeling
 Mass Matrix ((M)): Inertia properties derived using Euler-Lagrange.
 Coriolis/Centrifugal Matrix ((C)): Velocity-dependent terms.
 Gravity Vector ((G)): Compensation for gravitational forces.
 Linear Parametrization: Regressor matrices for adaptive control.
-3. Control Strategies
+
+### 3. Control Strategies
+
 Regulation
 PD Control: With/without gravity compensation.
 PID Control: Integral action for steady-state error reduction.
 Iterative Learning Control (ILC): Adaptive gravity compensation.
+
 Trajectory Tracking
 Inverse Dynamics + PD: Feedforward compensation for trajectory following.
 Feedback Linearization (FBL): Combined with PD/PID for error minimization.
+
 Cartesian-Space Control
 Task-Space PD: End-effector position control with joint-space damping.
 Input/Output Linearization: Model-based decoupling (limited by computational complexity).

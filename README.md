@@ -2,7 +2,8 @@
 ## Overview
 This repository contains the implementation and analysis of kinematic and dynamic control strategies for the UR5 robotic arm, developed for the Advanced Robotics course. The project encompasses forward/inverse kinematics, Jacobian-based trajectory planning, dynamic modeling, and multiple control schemes (PD, PID, feedback linearization) validated in MATLAB/Simulink. Key contributions include singularity avoidance, gravity compensation, and trajectory tracking under real-world constraints.
 
-Robot.png
+![Texte alternatif](chemin/vers/votre-image.png)
+
 
 ## Project Structure
 The final report and implementation are organized as follows:

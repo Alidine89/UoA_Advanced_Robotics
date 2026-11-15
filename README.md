@@ -28,16 +28,16 @@ Linear Parametrization: Regressor matrices for adaptive control.
 
 ### 3. Control Strategies
 
-Regulation
+#### Regulation
 PD Control: With/without gravity compensation.
 PID Control: Integral action for steady-state error reduction.
 Iterative Learning Control (ILC): Adaptive gravity compensation.
 
-Trajectory Tracking
+#### Trajectory Tracking
 Inverse Dynamics + PD: Feedforward compensation for trajectory following.
 Feedback Linearization (FBL): Combined with PD/PID for error minimization.
 
-Cartesian-Space Control
+#### Cartesian-Space Control
 Task-Space PD: End-effector position control with joint-space damping.
 Input/Output Linearization: Model-based decoupling (limited by computational complexity).
 Simulink

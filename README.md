@@ -41,7 +41,9 @@ Feedback Linearization (FBL): Combined with PD/PID for error minimization.
 #### Cartesian-Space Control
 Task-Space PD: End-effector position control with joint-space damping.
 Input/Output Linearization: Model-based decoupling (limited by computational complexity).
-Simulink
+
+![Texte alternatif](https://github.com/Alidine89/UoA_Advanced_Robotics/blob/main/Blocks.png)
+
 
 ## Key Results
 Regulation:
@@ -51,7 +53,9 @@ Trajectory Tracking:
 Inverse dynamics + PD achieved <0.5% tracking error (Fig. 22).
 Feedback linearization + PID eliminated steady-state drift (Fig. 27).
 Singularity Handling: Damped Jacobian prevented instabilities near singular configurations.
-Plot
+
+![Texte alternatif](https://github.com/Alidine89/UoA_Advanced_Robotics/blob/main/Plot.png)
+
 
 Tools & Methods
 MATLAB/Simulink: Symbolic math, control system design, simulation
